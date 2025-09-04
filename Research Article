@@ -1,0 +1,99 @@
+# Operational and Financial Analytics of Healthcare Encounters  
+**Author:** James Whitmarsh
+**Date:** 09/01/2025 
+**Tooling:** PostgreSQL, Python (pandas + SQLAlchemy), Power BI Desktop  
+
+---
+
+## 1. Introduction  
+Healthcare organizations generate vast amounts of data through patient encounters, admissions, and billing processes. To effectively manage resources and ensure financial sustainability, hospitals require actionable insights.  
+
+This project demonstrates how an **Analytics Administrator** can transform raw healthcare encounter data into operational and financial intelligence. Using PostgreSQL for data modeling, SQL for KPI queries, and Power BI for visualization, we built a dashboard that highlights trends in admissions, billing, and patient length of stay (LOS).  
+
+---
+
+## 2. Methodology  
+
+### Data Source  
+- Dataset: *Synthetic healthcare encounters*  
+- Size: 55,500 rows × 15 columns  
+- Key fields: Patient demographics, medical condition, admission/discharge dates, billing, insurance, and medications  
+
+### Process  
+1. **ETL:** Loaded CSV into PostgreSQL using Python (pandas + SQLAlchemy).  
+2. **Schema Design:** Built normalized tables for Patients, Encounters, Billing, Insurance, Providers, Hospitals, and Medications.  
+3. **KPI Development:** Created queries and a consolidated view (`vw_kpi_encounter_summary`).  
+4. **Visualization:** Built a two-page Power BI dashboard.  
+
+### Dashboard Layout  
+- **Page 1 (Snapshot):** Executive KPIs, Admissions by Type, Billing by Insurer, LOS by Condition  
+- **Page 2 (Trends):** Monthly Encounters, Billing, and LOS with slicers (Year, Quarter)  
+
+---
+
+## 3. Results  
+
+### 3.1 Executive KPIs  
+- **Total Encounters:** 55,500  
+- **Total Billing:** $1.42B  
+- **Average LOS:** 15.5 days  
+
+These provide a high-level overview of patient volume, financial throughput, and operational efficiency.  
+
+---
+
+### 3.2 Admissions by Type  
+- Elective: 18.7K  
+- Urgent: 18.6K  
+- Emergency: 18.3K  
+
+**Insight:** Admissions are evenly distributed, reducing dependency on one type. Sudden increases in emergency admissions could stress ER resources.  
+
+---
+
+### 3.3 Billing by Insurance  
+- Top 5 insurers contributed $279M–$287M each.  
+
+**Insight:** Revenue is well diversified, lowering contract and financial risk.  
+
+---
+
+### 3.4 LOS by Condition  
+- Chronic diseases (Asthma, Diabetes, Obesity, Cancer, Hypertension) had LOS of 15–16 days.  
+
+**Insight:** These conditions tie up hospital beds and resources. LOS reduction initiatives could improve efficiency.  
+
+---
+
+### 3.5 Monthly Trends  
+- **Encounters:** Stable month-to-month, with slight fluctuations.  
+- **Billing:** Closely tracks encounters, indicating consistent per-encounter billing.  
+- **LOS:** Varies 14–17 days, reflecting case-mix differences.  
+
+**Insight:** Monitoring trends enables early detection of anomalies (e.g., seasonal surges, high-cost cases).  
+
+---
+
+## 4. Discussion  
+This analysis shows how operational and financial KPIs can be delivered using a combination of database design, SQL, and business intelligence tools. The dashboard provides value to three levels of stakeholders:  
+
+- **Executives:** Quick KPIs (Encounters, Billing, LOS)  
+- **Finance:** Payer mix and revenue distribution  
+- **Operations:** LOS by condition and monthly encounter monitoring  
+
+---
+
+## 5. Recommendations  
+1. **LOS Reduction:** Focus on chronic conditions through care pathways and discharge planning.  
+2. **Trend Monitoring:** Use monthly reports to anticipate seasonal spikes.  
+3. **Financial Oversight:** Maintain balanced payer contracts.  
+4. **Future Work:** Add provider productivity, readmission analysis, and system monitoring metrics.  
+
+---
+
+## 6. Conclusion  
+The project demonstrates the role of an Analytics Administrator in transforming raw healthcare data into actionable insights. Through schema design, SQL KPIs, and Power BI visualization, the analysis highlights balanced admissions, diversified revenue sources, and efficiency challenges in patient LOS.  
+
+Future enhancements could include advanced analytics and integration into ITaaS systems for continuous monitoring.  
+
+---
