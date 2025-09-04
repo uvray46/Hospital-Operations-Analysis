@@ -1,5 +1,6 @@
 # Operational and Financial Analytics of Healthcare Encounters  
-<img width="630" height="360" alt="image" src="https://github.com/user-attachments/assets/3e6eb1f7-7436-43e0-9bb4-eb82bc14adba" />
+<img width="1245" height="700" alt="image" src="https://github.com/user-attachments/assets/71d6d558-fef1-4541-b992-ee1d271c8a1e" />
+
 
 
 **Author:** James Whitmarsh
