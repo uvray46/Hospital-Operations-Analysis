@@ -24,8 +24,8 @@ This project demonstrates how raw healthcare encounter data can be turned into o
 4. **Visualization:** Built a two-page Power BI dashboard.  
 
 ### Dashboard Layout  
- **<img width="1436" height="806" alt="image" src="https://github.com/user-attachments/assets/f4706f5a-bcdb-4ed9-8c9f-f41debccaeef" />
- **<img width="1416" height="790" alt="image" src="https://github.com/user-attachments/assets/d67f0536-c345-46ab-8ea3-d644aa8b3abb" />
+ <img width="1436" height="806" alt="image" src="https://github.com/user-attachments/assets/f4706f5a-bcdb-4ed9-8c9f-f41debccaeef" />
+ <img width="1416" height="790" alt="image" src="https://github.com/user-attachments/assets/d67f0536-c345-46ab-8ea3-d644aa8b3abb" />
 
 
 ## 3. Results  
