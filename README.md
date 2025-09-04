@@ -1,5 +1,6 @@
 # Operational and Financial Analytics of Healthcare Encounters  
-!("https://github.com/user-attachments/assets/d29c2e38-3043-46be-bba4-50b79debd89b)
+![download](https://github.com/user-attachments/assets/2e10b2da-a8ac-418e-a720-6142d8d47957)
+
 
 **Author:** James Whitmarsh
 
