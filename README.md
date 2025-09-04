@@ -1,4 +1,5 @@
 # Operational and Financial Analytics of Healthcare Encounters  
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fresources.businesstalentgroup.com%2Fhealthcare&psig=AOvVaw0ThxbDjGMboQj0czyxxRku&ust=1757048483719000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCPCBsfapvo8DFQAAAAAdAAAAABAE
 **Author:** James Whitmarsh
 
 **Date:** 09/01/2025 
