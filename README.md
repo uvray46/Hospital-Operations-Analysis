@@ -1,5 +1,6 @@
 # Operational and Financial Analytics of Healthcare Encounters  
-<img width="1245" height="700" alt="image" src="https://github.com/user-attachments/assets/71d6d558-fef1-4541-b992-ee1d271c8a1e" />
+<img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/88cfb072-36b6-4103-b982-c59f87a09612" />
+
 
 
 
