@@ -8,7 +8,7 @@
 ## 1. Introduction  
 Healthcare organizations generate vast amounts of data through patient encounters, admissions, and billing processes. To effectively manage resources and ensure financial sustainability, hospitals require actionable insights.  
 
-This project demonstrates how an **Analytics Administrator** can transform raw healthcare encounter data into operational and financial intelligence. Using PostgreSQL for data modeling, SQL for KPI queries, and Power BI for visualization, we built a dashboard that highlights trends in admissions, billing, and patient length of stay (LOS).  
+This project demonstrates how raw healthcare encounter data can be turned into operational and financial intelligence. Using PostgreSQL for data modeling, SQL for KPI queries, and Power BI for visualization, we built a dashboard that highlights trends in admissions, billing, and patient length of stay (LOS).  
 
 ## 2. Methodology  
 
@@ -82,6 +82,6 @@ This analysis shows how operational and financial KPIs can be delivered using a 
 
 
 ## 6. Conclusion  
-The project demonstrates the role of an Analytics Administrator in transforming raw healthcare data into actionable insights. Through schema design, SQL KPIs, and Power BI visualization, the analysis highlights balanced admissions, diversified revenue sources, and efficiency challenges in patient LOS.  
+The project demonstrates the importance of transforming raw healthcare data into actionable insights. Through schema design, SQL KPIs, and Power BI visualization, the analysis highlights balanced admissions, diversified revenue sources, and efficiency challenges in patient LOS.  
 
 Future enhancements could include advanced analytics and integration into ITaaS systems for continuous monitoring.  
